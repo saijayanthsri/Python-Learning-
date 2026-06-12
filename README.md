@@ -1,12 +1,21 @@
-# Python-Learning
-
 # Python Learning Journey 🐍
 
-This repository documents my Python learning journey as I build a strong foundation for Data Science and Analytics.
+This repository documents my Python learning journey as I build a strong foundation in programming through hands-on projects and practice exercises.
 
-## 🚀 Project
+## 🚀 Projects
 
-### Password Generator
+### 🎮 Hangman Game
+
+A classic word-guessing game built with Python where players try to guess a hidden word before running out of lives. This project helped me practice:
+
+* Lists and strings
+* Loops and conditional statements
+* Functions
+* Random word selection
+* User input validation
+* Game logic implementation
+
+### 🔐 Password Generator
 
 A Python program that generates random passwords based on user-defined requirements. This project helped me practice:
 
@@ -16,7 +25,7 @@ A Python program that generates random passwords based on user-defined requireme
 * Functions
 * Random module
 
-### Other Practice Programs
+### 📚 Other Practice Programs
 
 * Guess the Number Game
 * Odd or Even Checker
@@ -25,6 +34,13 @@ A Python program that generates random passwords based on user-defined requireme
 
 ## 📈 Progress
 
-This repository will be updated regularly as I learn new Python concepts and build more projects.
+This repository will be updated regularly as I learn new Python concepts, explore new libraries, and build more projects.
 
-Thanks for visiting my repository!
+### 🌱 Currently Learning
+
+* Python Fundamentals
+* SQL
+* Git & GitHub
+* Problem Solving
+
+Thanks for visiting my repository! 🚀
