@@ -24,44 +24,50 @@ print("""
 
 Good luck!
 """)
-types_cars =[
-    "toyota",
-    "honda",
-    "ford",
-    "bmw",
-    "audi",
-    "tesla",
-    "nissan",
-    "hyundai",
-    "kia",
-    "mazda",
-    "volvo",
-    "jaguar",
-    "lexus",
-    "porsche",
-    "ferrari",
-    "lamborghini",
-    "bugatti",
-    "chevrolet",
-    "mercedes",
-    "volkswagen"
+transportation_words = [
+    "car",
+    "bus",
+    "train",
+    "bicycle",
+    "motorcycle",
+    "airplane",
+    "helicopter",
+    "submarine",
+    "ship",
+    "boat",
+    "canoe",
+    "kayak",
+    "ferry",
+    "tram",
+    "metro",
+    "scooter",
+    "rickshaw",
+    "taxi",
+    "van",
+    "truck",
+    "yacht",
+    "jet",
+    "glider",
+    "hovercraft",
+    "spaceship"
 ]
-computer_choice = random.choice(types_cars)
-print(computer_choice)
+computer_choice = random.choice(transportation_words)
+#print(computer_choice)
 length_word = len(computer_choice)
 for i in range (length_word):
     print("_",end = " ")
+    
 
 
 word = []
 for i in range (length_word):
     word.append("_ ")
+    #print (word)
 
 repeat = []
 life_count = 6
 won = False 
 while life_count >0:
-    print("\n")
     guess = input("Enter your guess ").lower()
     if guess in computer_choice:
         for i in range(length_word):
@@ -98,3 +104,4 @@ if life_count == 0 and not won:
 """)
 
     print(f"The word was: {computer_choice}")
+
