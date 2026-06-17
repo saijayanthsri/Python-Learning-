@@ -15,6 +15,18 @@ A classic word-guessing game built with Python where players try to guess a hidd
 * User input validation
 * Game logic implementation
 
+### 🔐 Caesar Cipher Game
+
+A Python program that "encrypts" and "decrypts" messages using the Caesar Cipher technique. Users can choose to encode or decode text by shifting letters through the alphabet. This project helped me practice:
+
+* Strings and string manipulation
+* Lists
+* Functions
+* Loops
+* Conditional statements
+* User input handling
+* Basic encryption and decryption logic
+
 ### 🔐 Password Generator
 
 A Python program that generates random passwords based on user-defined requirements. This project helped me practice:
@@ -24,13 +36,6 @@ A Python program that generates random passwords based on user-defined requireme
 * Loops
 * Functions
 * Random module
-
-### 📚 Other Practice Programs
-
-* Guess the Number Game
-* Odd or Even Checker
-* Highest Number Finder
-* Loop Practice Programs
 
 ## 📈 Progress
 
